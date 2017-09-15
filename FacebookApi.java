@@ -23,14 +23,13 @@ public class FacebookApi {
     private GDXFacebook facebook;
     private GDXFacebookAccessToken token;
 
-	/* if there's a default class where credentials are stored or retrieved from,
-	 * then a constructor like this one could be used
-	 */
-	/*
+    /* if there's a default class where credentials are stored or retrieved from,
+     * then a constructor like this one could be used
+     */ /*
     public FacebookApi() {
         this(Credentials.FB_API_ID);
     }
-	/**/
+    /**/
 
     public FacebookApi(String appId) {
         this(appId, null, null);
